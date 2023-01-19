@@ -7,7 +7,7 @@ Created on Wed Jul 13 11:11:12 2022
 from flask import Flask, request, jsonify
 import os
 from werkzeug.utils import secure_filename
-from ibm_watson_machine_learning import APIClient
+# from ibm_watson_machine_learning import APIClient
 import tarfile
 from datetime import datetime
 # import time
