@@ -44,7 +44,7 @@ def check_file(p):
         
 @app.route('/')
 def home():
-    return "Call to IBM Cloud to create and kill job v2"
+    return "Wellcome to MOE"
 
 # NEED TO CHANGE THE PATH
 @app.route('/saveModelFile', methods=['POST', 'GET'])
@@ -289,4 +289,4 @@ def RunModelOnIBMCloud(deployment_uid):
 
 if __name__ == '__main__':
     app.debug = True
-    app.run(host="0.0.0.0",port=5000)
+    app.run(host="0.0.0.0",port=9101)
